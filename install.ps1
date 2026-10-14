@@ -1,4 +1,4 @@
-﻿# เวิร์กช็อป RAG — คำสั่งเดียว: โหลดเวิร์กช็อป + repo ของครูเอ้ ไปไว้ที่ Desktop แล้วรัน setup ต่อให้
+# เวิร์กช็อป RAG — คำสั่งเดียว: โหลดเวิร์กช็อป + repo ของครูเอ้ ไปไว้ที่ Desktop แล้วรัน setup ต่อให้
 # เปิด PowerShell แล้ววางบรรทัดนี้:
 #   irm https://raw.githubusercontent.com/Patchanon04/kdai-rag-workshop/main/install.ps1 | iex
 $ErrorActionPreference = "Stop"
