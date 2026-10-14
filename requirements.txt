@@ -1,0 +1,22 @@
+# เวอร์ชันที่ทดสอบแล้วกับเวิร์กช็อปนี้ (14 ต.ค. 2026, Python 3.11, Windows 11)
+# ติดตั้งผ่าน setup.ps1 / setup.sh ไม่ต้อง pip install เอง
+
+# --- ระบบ RAG
+opensearch-py==3.2.0
+sentence-transformers==6.1.0
+transformers==5.18.0
+torch
+openai==3.24.0
+numpy==1.26.4
+tqdm==4.70.1
+
+# --- notebook
+jupyter
+ipykernel
+pandas
+matplotlib
+
+# --- โค้ดของครู (part1) ต้องใช้ langchain รุ่นเก่า (สไลด์หน้า 22)
+llama-index-core==0.14.25
+langchain==0.0.354
+langchain-community==0.0.13
